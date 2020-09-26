@@ -63,4 +63,12 @@ public class Ramen : MonoBehaviour
     {
         mouse_ = null;
     }
+
+    /**
+     * 以下、水越が記述
+     */
+
+    public GameObject GetSoup() { return soup_; }
+    public GameObject GetNoodle() { return noodle_; }
+    public GameObject GetTopping() { return topping_; }
 }
