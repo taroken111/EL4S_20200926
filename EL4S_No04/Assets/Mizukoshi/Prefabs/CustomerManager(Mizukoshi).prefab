@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1937023222581102159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937023222581102156}
+  - component: {fileID: 1937023222581102158}
+  m_Layer: 0
+  m_Name: CustomerManager(Mizukoshi)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1937023222581102156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937023222581102159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1937023222581102158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937023222581102159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab642aa34b6547b43850c9542a06f037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSpritePrefabList:
+  - items: []
+  - items: []
+  - items: []
+  score: {fileID: 0}
+  maruSpritePrefab: {fileID: 6647782124391276350, guid: cc5887e2cb797d04d87d6a38bb4172ff,
+    type: 3}
+  batsuSpritePrefab: {fileID: 3270152174266845640, guid: 4b1fbf1fcc4e9b64686e22f91e342488,
+    type: 3}
+  sankakuSpritePrefab: {fileID: 3154853691175695001, guid: 6213f9031128f0c4ba4c71bd5015dd2d,
+    type: 3}
