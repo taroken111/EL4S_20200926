@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 555, y: 306.85}
+  m_AnchoredPosition: {x: 784, y: 306.85}
   m_SizeDelta: {x: 166.71838, y: 166.71838}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6979024628842339470
@@ -118,14 +118,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c91b49fdc8fb4c4caddb67d0cc050fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SoupImageList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  m_NoodlesImageList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  m_SoupImage: {fileID: 21300000, guid: af400f93da135344ebd98d969dce8593, type: 3}
+  m_NoodlesImage: {fileID: 21300000, guid: 2583910221c18d141ace449f1bc8f3dc, type: 3}
+  m_NoodleColors:
+  - {r: 1, g: 0.87058824, b: 0, a: 1}
+  - {r: 0.5019608, g: 1, b: 1, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  m_SoupColors:
+  - {r: 0.32941177, g: 0.09803922, b: 0, a: 1}
+  - {r: 0.94509804, g: 0.81960785, b: 0.7529412, a: 1}
+  - {r: 0.34117648, g: 0.18039216, b: 0, a: 1}
   m_ToppingImageList:
   - {fileID: 21300000, guid: caa29975a3dec50499445df252ccb1fd, type: 3}
   - {fileID: 21300000, guid: 76f96ce8dc103484fac5eda56348958f, type: 3}
@@ -172,7 +174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 784, y: 306.85}
+  m_AnchoredPosition: {x: 555, y: 306.85}
   m_SizeDelta: {x: 162.95105, y: 162.95105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5859787147379765521
