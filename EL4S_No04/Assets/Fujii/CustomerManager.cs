@@ -6,9 +6,13 @@ using UnityEngine.UI;
 public class CustomerManager : MonoBehaviour
 {
     //! スープ素材画像リスト
-    [SerializeField] List<Sprite> m_SoupImageList;
+    [SerializeField] Sprite m_SoupImage;
     //! 麺素材リスト
-    [SerializeField] List<Sprite> m_NoodlesImageList;
+    [SerializeField] Sprite m_NoodlesImage;
+    //! 麺の色リスト
+    [SerializeField] List<Color> m_NoodleColors;
+    //! スープの色リスト
+    [SerializeField] List<Color> m_SoupColors;
     //! トッピング素材リスト
     [SerializeField] List<Sprite> m_ToppingImageList;
     //! 客の画像リスト
@@ -30,6 +34,8 @@ public class CustomerManager : MonoBehaviour
 
     private void Start()
     {
+        m_Soup.sprite = m_SoupImage;
+        m_Noodle.sprite = m_NoodlesImage;
         LotteryCustomer();
     }
 
@@ -59,8 +65,8 @@ public class CustomerManager : MonoBehaviour
         m_NoodlesIndex = (int)Random.Range(0, 2.999f);
         m_ToppingIndex = (int)Random.Range(0, 2.999f);
 
-        m_Soup.sprite = m_SoupImageList[m_SoupIndex];
-        m_Noodle.sprite = m_NoodlesImageList[m_NoodlesIndex];
+        m_Soup.color = m_SoupColors[m_SoupIndex];
+        m_Noodle.color = m_NoodleColors[m_NoodlesIndex];
         m_Topping.sprite = m_ToppingImageList[m_ToppingIndex];
 
         int customer_index = (int)Random.Range(0, 2.999f);
