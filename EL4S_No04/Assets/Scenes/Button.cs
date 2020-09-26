@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Button : MonoBehaviour
 {
     public void onclick_startbutton(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("GameScene");
         
     }
 

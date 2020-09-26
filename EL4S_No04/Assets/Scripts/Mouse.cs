@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mouse : MonoBehaviour
 {
@@ -27,12 +28,15 @@ public class Mouse : MonoBehaviour
                 gameObject.GetComponent<SpriteRenderer>().color = haveMaterial_.GetComponent<SpriteRenderer>().color;
             }
         }
-
-        // 左クリック離したら
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
-            ReleaseHaveMaterial();
+            SceneManager.LoadScene("ResultScene");
         }
+        // 左クリック離したら
+       // if (Input.GetMouseButtonUp(0))
+       // {
+        //    ReleaseHaveMaterial();
+       // }
 
         // マウス座標更新
         Vector3 position = Camera.main.ScreenToWorldPoint(Input.mousePosition);

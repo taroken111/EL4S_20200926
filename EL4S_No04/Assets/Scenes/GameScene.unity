@@ -602,7 +602,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: af400f93da135344ebd98d969dce8593, type: 3}
-  m_Color: {r: 0.3301887, g: 0.09820938, b: 0, a: 1}
+  m_Color: {r: 0.18867922, g: 0.06428105, b: 0.011569957, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1434,7 +1434,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: af400f93da135344ebd98d969dce8593, type: 3}
-  m_Color: {r: 0.9433962, g: 0.8197677, b: 0.752047, a: 1}
+  m_Color: {r: 1, g: 0.6395841, b: 0.4481132, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1880,6 +1880,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CustomerManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874316828299015792, guid: 39dcf3aa624fad240afa0825aa7a6143,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874316828299015792, guid: 39dcf3aa624fad240afa0825aa7a6143,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6627525718566437337, guid: 39dcf3aa624fad240afa0825aa7a6143,
         type: 3}
